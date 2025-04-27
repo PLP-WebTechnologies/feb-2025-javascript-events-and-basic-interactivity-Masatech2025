@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MyShop | Contact</title>
+    <link rel="stylesheet" href="basic.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+
+    </header>
+
+    <main class="contact">
+      <section>
+        <h1>Contact Us</h1>
+        <p>
+          Email:
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=support@myshop.com"
+            target="_blank"
+          >
+            support@myshop.com
+          </a>
+        </p>
+        <p>Phone: <a href="tel:+1237011029757">+1237011029757</a></p>
+        <p>Address: No 23 Kussaki Street, Gboko Benue State, Nigeria</p>
+
+        <h2>Send us a message</h2>
+        <form action="#" method="post" class="contact-form">
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="password">Password:</label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            minlength="8"
+            required
+          /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="5" required></textarea
+          ><br /><br />
+
+          <button type="submit" class="buy-btn" id="sendBtn">
+            Send Message
+          </button>
+        </form>
+
+        <!-- FAQ Accordion -->
+        <h2>FAQs</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-header">How can I contact support?</button>
+            <div class="accordion-content">
+              <p>You can email us or call us directly at the number above.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">Where is MyShop located?</button>
+            <div class="accordion-content">
+              <p>We are based in Gboko-City, Benue-Nigeria.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 MyShop. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

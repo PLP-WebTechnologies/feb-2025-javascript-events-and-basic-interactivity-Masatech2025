@@ -1,0 +1,21 @@
+/* Smooth accordion animation */
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+}
+
+.accordion-content.active {
+  max-height: 100px; /* adjust height based on content */
+}
+
+/* Smooth button hover */
+.buy-btn {
+  transition: background-color 0.3s ease;
+}
+
+/* Nice border transition for inputs */
+.contact-form input,
+.contact-form textarea {
+  transition: border-color 0.3s ease;
+}
